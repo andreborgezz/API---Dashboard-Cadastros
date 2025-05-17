@@ -8,8 +8,7 @@ Este projeto implementa uma API completa de **cadastro e login de usuários**, d
 
 ## 🛠 Tecnologias Utilizadas
 
-- Java 17
-- Spring Boot
+- Java 17 (Spring Boot
 - MySQL
 - Maven
 - HTML, CSS, JavaScript 
