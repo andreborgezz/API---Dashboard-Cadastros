@@ -47,8 +47,11 @@ Este projeto implementa uma API completa de **cadastro e login de usuários**, d
 ### ▶️ Atualizar usuário
 
 **PUT /usuarios/1**
+
 ![Imagem do WhatsApp de 2025-05-17 à(s) 02 05 56_8221b8a5](https://github.com/user-attachments/assets/85490d9f-a66c-41ab-81e2-031d89433bdc)
+
 ![Imagem do WhatsApp de 2025-05-17 à(s) 02 05 57_fed7a5cf](https://github.com/user-attachments/assets/e759a663-a319-4143-aacb-e6abd6e793e4)
+
 ![Imagem do WhatsApp de 2025-05-17 à(s) 02 05 04_dc7ad930](https://github.com/user-attachments/assets/0eeea0f4-eb9a-4710-b6c6-22faf98bc958)
 
 
