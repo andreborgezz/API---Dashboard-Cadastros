@@ -1,0 +1,135 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.lado-esquerdo {
+  width: 50%;
+  background-color:#13353f;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado-direito {
+  width: 50%;
+  background-color:#26525d;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  color: #333;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #13353f;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-box button {
+  background-color: #13353f;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+  background-color: #0f2b34;
+}
+
+.cadastro-link {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.cadastro-link a {
+  color: #13353f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cadastro-link a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  html, body {
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    min-height: 100vh;
+  }
+  .lado-esquerdo, .lado-direito {
+    width: 100%;
+    min-height: 40vh;
+    padding: 24px 10px;
+    box-sizing: border-box;
+  }
+  .lado-esquerdo {
+    border-radius: 0 0 20px 20px;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .lado-direito {
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 60vh;
+  }
+  .login-box {
+    width: 100%;
+    min-width: unset;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 32px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .login-box {
+    padding: 18px 2vw;
+    font-size: 15px;
+  }
+  .login-box input, .login-box button {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .lado-esquerdo h1 {
+    font-size: 1.5rem;
+  }
+}
